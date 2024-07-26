@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+.container {
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin: 40px auto 62px;
+    padding: 60px 50px;
+    border: 6px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px gray;
+    }
+    
+.password {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text {
+    color: #D5D4D8;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+}
+
+/* #passwd1 {
+    justify-content: flex-start;
+}
+#passwd2 {
+    justify-items: flex-end;
+} */
+
+#passwd1, #passwd2 {
+    background-color: #2F3E53;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #10B981;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+#white-color {
+    color: white;
+    padding-top: 15px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400px;
+    font-size: 40px;
+}
+#green-color {
+    color: #10B981;
+    margin-top: -35px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+button{
+    padding: 9px 18px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #10B981;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+hr {
+    margin-top: 45px;
+    margin-bottom: 35px;
+    border: none;
+    background-color: #2F3E53;
+    height: 2px;
+}
